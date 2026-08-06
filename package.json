@@ -1,0 +1,28 @@
+{
+  "name": "jundarino.sia",
+  "version": "1.0.0",
+  "description": "classroom activities",
+  "keywords": [
+    "sia",
+    "activity",
+    "sy25-26"
+  ],
+  "homepage": "https://github.com/sjndrno/activity_sia_jundarino#readme",
+  "bugs": {
+    "url": "https://github.com/sjndrno/activity_sia_jundarino/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjndrno/activity_sia_jundarino.git"
+  },
+  "license": "ISC",
+  "author": "Jundarino, Shaira",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
