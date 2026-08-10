@@ -1,7 +1,8 @@
-console.log("Hello World");
+const project = {
+    title: "SIA Exercises",
+    subject: "ITS 201 - System Integration and Architecture",
+    language: "JavaScript",
+    status: "In Progress..."
+};
 
-console.log("Student Information");
-console.log("Student ID: 202521055");
-console.log("Name: Shaira Jundarino");
-console.log("Course: BS Information Technology");
-console.log("Year Level: 2nd Year");
+console.log(project);
