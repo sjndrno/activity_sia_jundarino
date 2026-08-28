@@ -1,8 +1,11 @@
-const project = {
-    title: "SIA Exercises",
-    subject: "ITS 201 - System Integration and Architecture",
-    language: "JavaScript",
-    status: "In Progress..."
-};
+//package imports
+const express = require('express');
 
-console.log(project);
+//server setup
+const server = express()
+const port = 1022
+const hostname = ' 192.168.2.36'
+server.listen(port, hostname, () => {
+    console.log('Server is running: ${hostname}:${port}')
+})
+
